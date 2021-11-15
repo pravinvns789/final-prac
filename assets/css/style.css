@@ -11,7 +11,11 @@ a {
   transition: 0.5s;
 }
 
-
+a:hover, a:active, a:focus {
+  color: #0a98c0;
+  outline: none;
+  text-decoration: none;
+}
 
 p {
   padding: 0;
@@ -158,7 +162,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ffffff;
+  background: #f5f8fd;
 }
 
 
@@ -173,7 +177,7 @@ section {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: rgb(240, 230, 214);
+  background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
